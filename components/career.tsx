@@ -11,8 +11,17 @@ const careerData = [
     role: "Student",
     period: "2021 - 2025",
     description:
-      "Completed Bachelor of Technology in Information Technology with a strong foundation in computer science fundamentals, data structures, and software engineering principles.",
+      "Built a strong foundation in computer science, data structures, and software engineering. Gained hands-on experience through academic projects, focusing on full-stack development and real-world problem solving.",
     color: "from-blue-500/20 to-cyan-500/20",
+  },
+  {
+    icon: Briefcase,
+    title: "The Reciprocal Solution",
+    role: "Full Stack Developer Intern",
+    period: "2024 - 2025",
+    description:
+      "Contributed to full-stack application development, focusing on frontend design, backend functionality, and real-world project collaboration.",
+    color: "from-purple-500/20 to-pink-500/20",
   },
   {
     icon: Code,
@@ -20,18 +29,10 @@ const careerData = [
     role: "Learning & Projects",
     period: "2023 - Present",
     description:
-      "Built multiple full-stack applications using MongoDB, Express.js, React, and Node.js. Developed RESTful APIs and modern, responsive user interfaces.",
+      "Worked on multiple full-stack web applications using MongoDB, Express.js, React, and Node.js. Developed RESTful APIs, responsive user interfaces, and scalable backend logic through project-based learning.",
     color: "from-green-500/20 to-emerald-500/20",
   },
-  {
-    icon: Briefcase,
-    title: ".NET Development",
-    role: "Self-Learning",
-    period: "2024 - Present",
-    description:
-      "Expanded expertise to include C# and .NET framework, building enterprise-level applications and working with SQL databases for robust backend solutions.",
-    color: "from-purple-500/20 to-pink-500/20",
-  },
+  
 ]
 
 export default function Career() {
@@ -62,8 +63,8 @@ export default function Career() {
           className={`transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
         >
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Career Journey</h2>
-            <p className="text-muted-foreground text-lg">My path in software development</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">My Journey</h2>
+            {/* <p className="text-muted-foreground text-lg">My path in software development</p> */}
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8">

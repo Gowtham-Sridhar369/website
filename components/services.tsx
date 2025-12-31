@@ -8,9 +8,9 @@ import { Code2, Layout, Database, Zap } from "lucide-react"
 const servicesData = [
   {
     icon: Code2,
-    title: "Full Stack Web Development",
+    title: "Web Development",
     description:
-      "End-to-end web application development using modern technologies like MERN stack and .NET, delivering scalable and performant solutions.",
+      "End-to-end web application development using modern technologies like MERN stack, delivering scalable and performant solutions.",
     color: "from-blue-500/20 to-cyan-500/20",
   },
   {

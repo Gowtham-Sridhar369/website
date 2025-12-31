@@ -16,7 +16,7 @@ export default function Navbar({ activeSection }: NavbarProps) {
     { name: "About", href: "#about" },
     { name: "Career", href: "#career" },
     { name: "Services", href: "#services" },
-    { name: "Portfolio", href: "#portfolio" },
+    // { name: "Portfolio", href: "#portfolio" },
     // { name: "Testimonial", href: "#testimonials" },
     { name: "Contact", href: "#contact" },
   ]
@@ -44,7 +44,7 @@ export default function Navbar({ activeSection }: NavbarProps) {
       }`}
     >
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-25">
+        <div className="flex items-center justify-between h-19">
           <div className="text-xl font-bold">
             <button
               onClick={() => scrollToSection('#home')}
@@ -52,7 +52,7 @@ export default function Navbar({ activeSection }: NavbarProps) {
               className="flex items-center gap-2"
             >
               {/* Place your logo at public/logo.png or update the src below */}
-              <Image src="/logo.png" alt="Logo" width={140} height={100} className="rounded-sm" />
+              <Image src="/logo.png" alt="Logo" width={90} height={90} className="rounded-sm" />
             </button>
           </div>
 

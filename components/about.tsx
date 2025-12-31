@@ -47,7 +47,7 @@ export default function About() {
         >
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">About Me</h2>
-            <p className="text-muted-foreground text-lg">Get to know more about my journey</p>
+            <p className="text-muted-foreground text-lg">Take a closer look at my journey</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
@@ -66,7 +66,7 @@ export default function About() {
 
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-muted-foreground">
-               I’m Gowtham, <span className="text-foreground font-medium">a Full Stack Developer and IT graduate</span> who enjoys building simple, scalable web applications. I work on both frontend and backend, focusing on clean design, good performance, and reliable code. I like turning ideas into meaningful digital experiences.
+            <span className="text-foreground font-medium"></span>I’m Gowtham, a Full Stack Developer and IT graduate specializing in building scalable, performance-driven web applications. I combine clean design with reliable code to transform ideas into meaningful digital experiences.
               </p>
 
               {/* <p className="text-lg leading-relaxed text-muted-foreground">
@@ -86,20 +86,23 @@ export default function About() {
               </div>
 
               <div className="pt-4">
-                <Button size="lg">
-                  <svg
-                    className="mr-2 w-5 h-5"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                  </svg>
-                  Download Resume
+                <Button size="lg" asChild>
+                  <a href="/gowtham_f.pdf" download="Gowtham_Resume.pdf">
+                    <svg
+                      className="mr-2 w-5 h-5"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    Download Resume
+                  </a>
                 </Button>
+
               </div>
             </div>
           </div>
